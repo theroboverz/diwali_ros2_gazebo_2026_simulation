@@ -1,0 +1,1315 @@
+<?xml version="1.0" ?>
+<sdf version="1.9">
+  <model name="tamil_house_pink">
+    <static>true</static>
+    <link name="link">
+      <visual name="plinth">
+        <pose>1.0000 0.0000 0.2500 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>9.6000 8.6000 0.5000</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.608 0.569 0.510 1.0</ambient>
+          <diffuse>0.608 0.569 0.510 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="plinth_stripe">
+        <pose>1.0000 0.0000 0.4500 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>9.6400 8.6400 0.0700</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.667 0.196 0.137 1.0</ambient>
+          <diffuse>0.667 0.196 0.137 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="step1">
+        <pose>6.0500 0.0000 0.1600 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.5000 2.4000 0.3200</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.608 0.569 0.510 1.0</ambient>
+          <diffuse>0.608 0.569 0.510 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="step2">
+        <pose>6.5500 0.0000 0.0800 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.5000 2.4000 0.1600</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.608 0.569 0.510 1.0</ambient>
+          <diffuse>0.608 0.569 0.510 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="body">
+        <pose>0.0000 0.0000 2.1000 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>7.0000 8.0000 3.2000</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.902 0.588 0.667 1.0</ambient>
+          <diffuse>0.902 0.588 0.667 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.85</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="base_band">
+        <pose>0.0000 0.0000 0.7250 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>7.0600 8.0600 0.4500</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.549 0.216 0.157 1.0</ambient>
+          <diffuse>0.549 0.216 0.157 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="door_frame">
+        <pose>3.5200 0.0000 1.6500 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.1200 1.5000 2.3000</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.922 0.902 0.843 1.0</ambient>
+          <diffuse>0.922 0.902 0.843 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.7</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="door">
+        <pose>3.5800 0.0000 1.5750 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.0800 1.2000 2.1500</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.373 0.216 0.118 1.0</ambient>
+          <diffuse>0.373 0.216 0.118 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.7</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="door_knob">
+        <pose>3.6400 0.4000 1.5000 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0300</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>0.804 0.608 0.235 1.0</ambient>
+          <diffuse>0.804 0.608 0.235 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.3</roughness>
+              <metalness>0.8</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="win_frame_l">
+        <pose>3.5200 -2.6000 2.1000 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.1000 1.1000 1.2000</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.922 0.902 0.843 1.0</ambient>
+          <diffuse>0.922 0.902 0.843 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.7</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="win_glow_l">
+        <pose>3.5700 -2.6000 2.1000 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.0500 0.9000 1.0000</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>1.000 0.745 0.392 1.0</ambient>
+          <diffuse>1.000 0.745 0.392 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <emissive>0.588 0.373 0.157 1</emissive>
+          <pbr>
+            <metal>
+              <roughness>0.4</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="win_bar_l0">
+        <pose>3.6200 -2.9600 2.1000 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.0300 0.0300 1.0000</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.098 0.098 0.098 1.0</ambient>
+          <diffuse>0.098 0.098 0.098 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.5</roughness>
+              <metalness>0.5</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="win_bar_l1">
+        <pose>3.6200 -2.7800 2.1000 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.0300 0.0300 1.0000</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.098 0.098 0.098 1.0</ambient>
+          <diffuse>0.098 0.098 0.098 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.5</roughness>
+              <metalness>0.5</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="win_bar_l2">
+        <pose>3.6200 -2.6000 2.1000 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.0300 0.0300 1.0000</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.098 0.098 0.098 1.0</ambient>
+          <diffuse>0.098 0.098 0.098 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.5</roughness>
+              <metalness>0.5</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="win_bar_l3">
+        <pose>3.6200 -2.4200 2.1000 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.0300 0.0300 1.0000</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.098 0.098 0.098 1.0</ambient>
+          <diffuse>0.098 0.098 0.098 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.5</roughness>
+              <metalness>0.5</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="win_bar_l4">
+        <pose>3.6200 -2.2400 2.1000 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.0300 0.0300 1.0000</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.098 0.098 0.098 1.0</ambient>
+          <diffuse>0.098 0.098 0.098 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.5</roughness>
+              <metalness>0.5</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="win_frame_r">
+        <pose>3.5200 2.6000 2.1000 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.1000 1.1000 1.2000</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.922 0.902 0.843 1.0</ambient>
+          <diffuse>0.922 0.902 0.843 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.7</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="win_glow_r">
+        <pose>3.5700 2.6000 2.1000 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.0500 0.9000 1.0000</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>1.000 0.745 0.392 1.0</ambient>
+          <diffuse>1.000 0.745 0.392 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <emissive>0.588 0.373 0.157 1</emissive>
+          <pbr>
+            <metal>
+              <roughness>0.4</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="win_bar_r0">
+        <pose>3.6200 2.2400 2.1000 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.0300 0.0300 1.0000</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.098 0.098 0.098 1.0</ambient>
+          <diffuse>0.098 0.098 0.098 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.5</roughness>
+              <metalness>0.5</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="win_bar_r1">
+        <pose>3.6200 2.4200 2.1000 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.0300 0.0300 1.0000</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.098 0.098 0.098 1.0</ambient>
+          <diffuse>0.098 0.098 0.098 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.5</roughness>
+              <metalness>0.5</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="win_bar_r2">
+        <pose>3.6200 2.6000 2.1000 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.0300 0.0300 1.0000</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.098 0.098 0.098 1.0</ambient>
+          <diffuse>0.098 0.098 0.098 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.5</roughness>
+              <metalness>0.5</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="win_bar_r3">
+        <pose>3.6200 2.7800 2.1000 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.0300 0.0300 1.0000</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.098 0.098 0.098 1.0</ambient>
+          <diffuse>0.098 0.098 0.098 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.5</roughness>
+              <metalness>0.5</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="win_bar_r4">
+        <pose>3.6200 2.9600 2.1000 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.0300 0.0300 1.0000</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.098 0.098 0.098 1.0</ambient>
+          <diffuse>0.098 0.098 0.098 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.5</roughness>
+              <metalness>0.5</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="pillar0">
+        <pose>5.5000 -3.9000 1.7000 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.1000</radius>
+            <length>2.4000</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>0.910 0.886 0.824 1.0</ambient>
+          <diffuse>0.910 0.886 0.824 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="pillar1">
+        <pose>5.5000 -1.3000 1.7000 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.1000</radius>
+            <length>2.4000</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>0.910 0.886 0.824 1.0</ambient>
+          <diffuse>0.910 0.886 0.824 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="pillar2">
+        <pose>5.5000 1.3000 1.7000 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.1000</radius>
+            <length>2.4000</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>0.910 0.886 0.824 1.0</ambient>
+          <diffuse>0.910 0.886 0.824 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="pillar3">
+        <pose>5.5000 3.9000 1.7000 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.1000</radius>
+            <length>2.4000</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>0.910 0.886 0.824 1.0</ambient>
+          <diffuse>0.910 0.886 0.824 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="veranda_beam">
+        <pose>5.7000 0.0000 2.8500 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.1500 8.8000 0.1500</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.373 0.216 0.118 1.0</ambient>
+          <diffuse>0.373 0.216 0.118 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.7</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="roof_front">
+        <pose>2.1000 0.0000 4.2600 0.0000 0.3430 0.0000</pose>
+        <geometry>
+          <box>
+            <size>4.4600 9.0000 0.1200</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.667 0.314 0.196 1.0</ambient>
+          <diffuse>0.667 0.314 0.196 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.75</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="roof_front_rib0">
+        <pose>0.2623 0.0000 5.0013 0.0000 0.3430 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.0700 9.0000 0.0400</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.471 0.196 0.137 1.0</ambient>
+          <diffuse>0.471 0.196 0.137 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="roof_front_rib1">
+        <pose>0.6578 0.0000 4.8600 0.0000 0.3430 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.0700 9.0000 0.0400</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.471 0.196 0.137 1.0</ambient>
+          <diffuse>0.471 0.196 0.137 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="roof_front_rib2">
+        <pose>1.0533 0.0000 4.7188 0.0000 0.3430 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.0700 9.0000 0.0400</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.471 0.196 0.137 1.0</ambient>
+          <diffuse>0.471 0.196 0.137 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="roof_front_rib3">
+        <pose>1.4489 0.0000 4.5775 0.0000 0.3430 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.0700 9.0000 0.0400</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.471 0.196 0.137 1.0</ambient>
+          <diffuse>0.471 0.196 0.137 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="roof_front_rib4">
+        <pose>1.8444 0.0000 4.4362 0.0000 0.3430 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.0700 9.0000 0.0400</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.471 0.196 0.137 1.0</ambient>
+          <diffuse>0.471 0.196 0.137 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="roof_front_rib5">
+        <pose>2.2399 0.0000 4.2950 0.0000 0.3430 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.0700 9.0000 0.0400</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.471 0.196 0.137 1.0</ambient>
+          <diffuse>0.471 0.196 0.137 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="roof_front_rib6">
+        <pose>2.6354 0.0000 4.1537 0.0000 0.3430 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.0700 9.0000 0.0400</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.471 0.196 0.137 1.0</ambient>
+          <diffuse>0.471 0.196 0.137 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="roof_front_rib7">
+        <pose>3.0310 0.0000 4.0125 0.0000 0.3430 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.0700 9.0000 0.0400</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.471 0.196 0.137 1.0</ambient>
+          <diffuse>0.471 0.196 0.137 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="roof_front_rib8">
+        <pose>3.4265 0.0000 3.8712 0.0000 0.3430 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.0700 9.0000 0.0400</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.471 0.196 0.137 1.0</ambient>
+          <diffuse>0.471 0.196 0.137 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="roof_front_rib9">
+        <pose>3.8220 0.0000 3.7299 0.0000 0.3430 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.0700 9.0000 0.0400</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.471 0.196 0.137 1.0</ambient>
+          <diffuse>0.471 0.196 0.137 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="roof_back">
+        <pose>-2.1000 0.0000 4.2600 0.0000 -0.3430 0.0000</pose>
+        <geometry>
+          <box>
+            <size>4.4600 9.0000 0.1200</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.667 0.314 0.196 1.0</ambient>
+          <diffuse>0.667 0.314 0.196 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.75</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="roof_back_rib0">
+        <pose>-3.9916 0.0000 3.6694 0.0000 -0.3430 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.0700 9.0000 0.0400</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.471 0.196 0.137 1.0</ambient>
+          <diffuse>0.471 0.196 0.137 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="roof_back_rib1">
+        <pose>-3.5960 0.0000 3.8107 0.0000 -0.3430 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.0700 9.0000 0.0400</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.471 0.196 0.137 1.0</ambient>
+          <diffuse>0.471 0.196 0.137 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="roof_back_rib2">
+        <pose>-3.2005 0.0000 3.9519 0.0000 -0.3430 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.0700 9.0000 0.0400</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.471 0.196 0.137 1.0</ambient>
+          <diffuse>0.471 0.196 0.137 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="roof_back_rib3">
+        <pose>-2.8050 0.0000 4.0932 0.0000 -0.3430 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.0700 9.0000 0.0400</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.471 0.196 0.137 1.0</ambient>
+          <diffuse>0.471 0.196 0.137 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="roof_back_rib4">
+        <pose>-2.4094 0.0000 4.2344 0.0000 -0.3430 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.0700 9.0000 0.0400</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.471 0.196 0.137 1.0</ambient>
+          <diffuse>0.471 0.196 0.137 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="roof_back_rib5">
+        <pose>-2.0139 0.0000 4.3757 0.0000 -0.3430 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.0700 9.0000 0.0400</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.471 0.196 0.137 1.0</ambient>
+          <diffuse>0.471 0.196 0.137 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="roof_back_rib6">
+        <pose>-1.6184 0.0000 4.5170 0.0000 -0.3430 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.0700 9.0000 0.0400</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.471 0.196 0.137 1.0</ambient>
+          <diffuse>0.471 0.196 0.137 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="roof_back_rib7">
+        <pose>-1.2228 0.0000 4.6582 0.0000 -0.3430 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.0700 9.0000 0.0400</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.471 0.196 0.137 1.0</ambient>
+          <diffuse>0.471 0.196 0.137 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="roof_back_rib8">
+        <pose>-0.8273 0.0000 4.7995 0.0000 -0.3430 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.0700 9.0000 0.0400</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.471 0.196 0.137 1.0</ambient>
+          <diffuse>0.471 0.196 0.137 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="roof_back_rib9">
+        <pose>-0.4318 0.0000 4.9407 0.0000 -0.3430 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.0700 9.0000 0.0400</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.471 0.196 0.137 1.0</ambient>
+          <diffuse>0.471 0.196 0.137 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="veranda_roof">
+        <pose>4.6500 0.0000 3.1600 0.0000 0.1720 0.0000</pose>
+        <geometry>
+          <box>
+            <size>2.3350 8.8000 0.1000</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.667 0.314 0.196 1.0</ambient>
+          <diffuse>0.667 0.314 0.196 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.75</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="veranda_roof_rib0">
+        <pose>3.7580 0.0000 3.3860 0.0000 0.1720 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.0700 8.8000 0.0400</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.471 0.196 0.137 1.0</ambient>
+          <diffuse>0.471 0.196 0.137 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="veranda_roof_rib1">
+        <pose>4.1718 0.0000 3.3141 0.0000 0.1720 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.0700 8.8000 0.0400</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.471 0.196 0.137 1.0</ambient>
+          <diffuse>0.471 0.196 0.137 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="veranda_roof_rib2">
+        <pose>4.5856 0.0000 3.2422 0.0000 0.1720 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.0700 8.8000 0.0400</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.471 0.196 0.137 1.0</ambient>
+          <diffuse>0.471 0.196 0.137 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="veranda_roof_rib3">
+        <pose>4.9994 0.0000 3.1703 0.0000 0.1720 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.0700 8.8000 0.0400</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.471 0.196 0.137 1.0</ambient>
+          <diffuse>0.471 0.196 0.137 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="veranda_roof_rib4">
+        <pose>5.4132 0.0000 3.0985 0.0000 0.1720 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.0700 8.8000 0.0400</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.471 0.196 0.137 1.0</ambient>
+          <diffuse>0.471 0.196 0.137 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="ridge">
+        <pose>0.0000 0.0000 5.0200 1.5708 0.0000 0.0000</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.1200</radius>
+            <length>9.0000</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>0.549 0.235 0.157 1.0</ambient>
+          <diffuse>0.549 0.235 0.157 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="gable0_-1">
+        <pose>0.0000 -3.8500 3.9100 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>5.8000 0.3000 0.4200</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.902 0.588 0.667 1.0</ambient>
+          <diffuse>0.902 0.588 0.667 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.85</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="gable0_1">
+        <pose>0.0000 3.8500 3.9100 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>5.8000 0.3000 0.4200</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.902 0.588 0.667 1.0</ambient>
+          <diffuse>0.902 0.588 0.667 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.85</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="gable1_-1">
+        <pose>0.0000 -3.8500 4.3300 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>3.4700 0.3000 0.4200</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.902 0.588 0.667 1.0</ambient>
+          <diffuse>0.902 0.588 0.667 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.85</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="gable1_1">
+        <pose>0.0000 3.8500 4.3300 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>3.4700 0.3000 0.4200</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.902 0.588 0.667 1.0</ambient>
+          <diffuse>0.902 0.588 0.667 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.85</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="gable2_-1">
+        <pose>0.0000 -3.8500 4.7500 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>1.2000 0.3000 0.4200</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.902 0.588 0.667 1.0</ambient>
+          <diffuse>0.902 0.588 0.667 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.85</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="gable2_1">
+        <pose>0.0000 3.8500 4.7500 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>1.2000 0.3000 0.4200</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.902 0.588 0.667 1.0</ambient>
+          <diffuse>0.902 0.588 0.667 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.85</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="tulasi_base">
+        <pose>7.0000 -2.8000 0.3000 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.6000 0.6000 0.6000</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.922 0.902 0.863 1.0</ambient>
+          <diffuse>0.922 0.902 0.863 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="tulasi_stripe">
+        <pose>7.0000 -2.8000 0.4500 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.6200 0.6200 0.1000</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.549 0.216 0.157 1.0</ambient>
+          <diffuse>0.549 0.216 0.157 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="tulasi_top">
+        <pose>7.0000 -2.8000 0.6600 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.2200</radius>
+            <length>0.1200</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>0.922 0.902 0.863 1.0</ambient>
+          <diffuse>0.922 0.902 0.863 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="tulasi_plant">
+        <pose>7.0000 -2.8000 0.9500 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.2400</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>0.157 0.510 0.196 1.0</ambient>
+          <diffuse>0.157 0.510 0.196 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <collision name="body">
+        <pose>1.0000 0.0000 2.5000 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>9.6000 8.6000 5.0000</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="steps">
+        <pose>6.3000 0.0000 0.1500 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>1.4000 2.4000 0.3000</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name="tulasi">
+        <pose>7.0000 -2.8000 0.4500 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.6000 0.6000 0.9000</size>
+          </box>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>

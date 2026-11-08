@@ -1,0 +1,15 @@
+festival_manager:
+  ros__parameters:
+    world_name: diwali_street
+    autonomous: true            # Mode A (true) / Mode B only (false); can be toggled at runtime
+    fireworks_enabled: true
+    lighting_enabled: true
+    sound_enabled: true
+    auto_first_delay_s: 20.0
+    auto_interval_min_s: 25.0
+    auto_interval_max_s: 50.0
+    max_events_per_minute: 6
+    sites: [fw_n1, fw_n2, fw_s1, fw_s2]
+    sparklers: [sp0, sp1, sp2, sp3]
+    auto_effects: [golden_burst, red_burst, blue_burst, green_burst, finale]
+    force_gz_cli: false

@@ -1,0 +1,657 @@
+<?xml version="1.0" ?>
+<sdf version="1.9">
+  <model name="cracker_cake">
+    <static>true</static>
+    <link name="link">
+      <visual name="crate">
+        <pose>0.0000 0.0000 0.1200 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.3600 0.3600 0.2400</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.784 0.118 0.157 1.0</ambient>
+          <diffuse>0.784 0.118 0.157 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.6</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="ribbon_x">
+        <pose>0.0000 0.0000 0.1200 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.3700 0.0500 0.2450</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.941 0.745 0.157 1.0</ambient>
+          <diffuse>0.941 0.745 0.157 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.4</roughness>
+              <metalness>0.3</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="ribbon_y">
+        <pose>0.0000 0.0000 0.1200 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.0500 0.3700 0.2450</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.941 0.745 0.157 1.0</ambient>
+          <diffuse>0.941 0.745 0.157 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.4</roughness>
+              <metalness>0.3</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="tube0">
+        <pose>-0.1100 -0.1100 0.2500 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.0350</radius>
+            <length>0.0400</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>0.118 0.118 0.137 1.0</ambient>
+          <diffuse>0.118 0.118 0.137 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="tube1">
+        <pose>-0.1100 0.0000 0.2500 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.0350</radius>
+            <length>0.0400</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>0.118 0.118 0.137 1.0</ambient>
+          <diffuse>0.118 0.118 0.137 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="tube2">
+        <pose>-0.1100 0.1100 0.2500 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.0350</radius>
+            <length>0.0400</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>0.118 0.118 0.137 1.0</ambient>
+          <diffuse>0.118 0.118 0.137 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="tube3">
+        <pose>0.0000 -0.1100 0.2500 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.0350</radius>
+            <length>0.0400</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>0.118 0.118 0.137 1.0</ambient>
+          <diffuse>0.118 0.118 0.137 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="tube4">
+        <pose>0.0000 0.0000 0.2500 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.0350</radius>
+            <length>0.0400</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>0.118 0.118 0.137 1.0</ambient>
+          <diffuse>0.118 0.118 0.137 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="tube5">
+        <pose>0.0000 0.1100 0.2500 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.0350</radius>
+            <length>0.0400</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>0.118 0.118 0.137 1.0</ambient>
+          <diffuse>0.118 0.118 0.137 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="tube6">
+        <pose>0.1100 -0.1100 0.2500 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.0350</radius>
+            <length>0.0400</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>0.118 0.118 0.137 1.0</ambient>
+          <diffuse>0.118 0.118 0.137 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="tube7">
+        <pose>0.1100 0.0000 0.2500 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.0350</radius>
+            <length>0.0400</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>0.118 0.118 0.137 1.0</ambient>
+          <diffuse>0.118 0.118 0.137 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="tube8">
+        <pose>0.1100 0.1100 0.2500 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.0350</radius>
+            <length>0.0400</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>0.118 0.118 0.137 1.0</ambient>
+          <diffuse>0.118 0.118 0.137 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.8</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <particle_emitter name="pe_shot0" type="box">
+        <emitting>false</emitting>
+        <size>0.02 0.02 0.02</size>
+        <particle_size>0.09 0.09 0.09</particle_size>
+        <lifetime>0.9</lifetime>
+        <min_velocity>8.0</min_velocity>
+        <max_velocity>11.0</max_velocity>
+        <rate>500</rate>
+        <pose>-0.1100 -0.1100 0.2800 0.0000 -1.4027 -2.3562</pose>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0 0 0 1</specular>
+          <pbr>
+            <metal>
+              <albedo_map>model://cracker_fx/materials/textures/spark.png</albedo_map>
+            </metal>
+          </pbr>
+        </material>
+        <color_range_image>@DIWALI_FX_DIR@/range_gold.png</color_range_image>
+        <topic>/festival/cracker/demo/shot0/0</topic>
+      </particle_emitter>
+      <particle_emitter name="pe_muzzle0" type="box">
+        <emitting>false</emitting>
+        <size>0.02 0.02 0.02</size>
+        <particle_size>0.05 0.05 0.05</particle_size>
+        <lifetime>0.15</lifetime>
+        <min_velocity>0.5</min_velocity>
+        <max_velocity>2.0</max_velocity>
+        <rate>700</rate>
+        <pose>-0.1100 -0.1100 0.2800 0.0000 -1.5708 0.0000</pose>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0 0 0 1</specular>
+          <pbr>
+            <metal>
+              <albedo_map>model://cracker_fx/materials/textures/spark.png</albedo_map>
+            </metal>
+          </pbr>
+        </material>
+        <color_range_image>@DIWALI_FX_DIR@/range_fire.png</color_range_image>
+        <topic>/festival/cracker/demo/shot0/1</topic>
+      </particle_emitter>
+      <particle_emitter name="pe_shot1" type="box">
+        <emitting>false</emitting>
+        <size>0.02 0.02 0.02</size>
+        <particle_size>0.09 0.09 0.09</particle_size>
+        <lifetime>0.9</lifetime>
+        <min_velocity>8.0</min_velocity>
+        <max_velocity>11.0</max_velocity>
+        <rate>500</rate>
+        <pose>-0.1100 0.0000 0.2800 0.0000 -1.4514 3.1416</pose>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0 0 0 1</specular>
+          <pbr>
+            <metal>
+              <albedo_map>model://cracker_fx/materials/textures/spark.png</albedo_map>
+            </metal>
+          </pbr>
+        </material>
+        <color_range_image>@DIWALI_FX_DIR@/range_green.png</color_range_image>
+        <topic>/festival/cracker/demo/shot1/0</topic>
+      </particle_emitter>
+      <particle_emitter name="pe_muzzle1" type="box">
+        <emitting>false</emitting>
+        <size>0.02 0.02 0.02</size>
+        <particle_size>0.05 0.05 0.05</particle_size>
+        <lifetime>0.15</lifetime>
+        <min_velocity>0.5</min_velocity>
+        <max_velocity>2.0</max_velocity>
+        <rate>700</rate>
+        <pose>-0.1100 0.0000 0.2800 0.0000 -1.5708 0.0000</pose>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0 0 0 1</specular>
+          <pbr>
+            <metal>
+              <albedo_map>model://cracker_fx/materials/textures/spark.png</albedo_map>
+            </metal>
+          </pbr>
+        </material>
+        <color_range_image>@DIWALI_FX_DIR@/range_fire.png</color_range_image>
+        <topic>/festival/cracker/demo/shot1/1</topic>
+      </particle_emitter>
+      <particle_emitter name="pe_shot2" type="box">
+        <emitting>false</emitting>
+        <size>0.02 0.02 0.02</size>
+        <particle_size>0.09 0.09 0.09</particle_size>
+        <lifetime>0.9</lifetime>
+        <min_velocity>8.0</min_velocity>
+        <max_velocity>11.0</max_velocity>
+        <rate>500</rate>
+        <pose>-0.1100 0.1100 0.2800 0.0000 -1.4027 2.3562</pose>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0 0 0 1</specular>
+          <pbr>
+            <metal>
+              <albedo_map>model://cracker_fx/materials/textures/spark.png</albedo_map>
+            </metal>
+          </pbr>
+        </material>
+        <color_range_image>@DIWALI_FX_DIR@/range_gold.png</color_range_image>
+        <topic>/festival/cracker/demo/shot2/0</topic>
+      </particle_emitter>
+      <particle_emitter name="pe_muzzle2" type="box">
+        <emitting>false</emitting>
+        <size>0.02 0.02 0.02</size>
+        <particle_size>0.05 0.05 0.05</particle_size>
+        <lifetime>0.15</lifetime>
+        <min_velocity>0.5</min_velocity>
+        <max_velocity>2.0</max_velocity>
+        <rate>700</rate>
+        <pose>-0.1100 0.1100 0.2800 0.0000 -1.5708 0.0000</pose>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0 0 0 1</specular>
+          <pbr>
+            <metal>
+              <albedo_map>model://cracker_fx/materials/textures/spark.png</albedo_map>
+            </metal>
+          </pbr>
+        </material>
+        <color_range_image>@DIWALI_FX_DIR@/range_fire.png</color_range_image>
+        <topic>/festival/cracker/demo/shot2/1</topic>
+      </particle_emitter>
+      <particle_emitter name="pe_shot3" type="box">
+        <emitting>false</emitting>
+        <size>0.02 0.02 0.02</size>
+        <particle_size>0.09 0.09 0.09</particle_size>
+        <lifetime>0.9</lifetime>
+        <min_velocity>8.0</min_velocity>
+        <max_velocity>11.0</max_velocity>
+        <rate>500</rate>
+        <pose>0.0000 -0.1100 0.2800 0.0000 -1.4514 -1.5708</pose>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0 0 0 1</specular>
+          <pbr>
+            <metal>
+              <albedo_map>model://cracker_fx/materials/textures/spark.png</albedo_map>
+            </metal>
+          </pbr>
+        </material>
+        <color_range_image>@DIWALI_FX_DIR@/range_green.png</color_range_image>
+        <topic>/festival/cracker/demo/shot3/0</topic>
+      </particle_emitter>
+      <particle_emitter name="pe_muzzle3" type="box">
+        <emitting>false</emitting>
+        <size>0.02 0.02 0.02</size>
+        <particle_size>0.05 0.05 0.05</particle_size>
+        <lifetime>0.15</lifetime>
+        <min_velocity>0.5</min_velocity>
+        <max_velocity>2.0</max_velocity>
+        <rate>700</rate>
+        <pose>0.0000 -0.1100 0.2800 0.0000 -1.5708 0.0000</pose>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0 0 0 1</specular>
+          <pbr>
+            <metal>
+              <albedo_map>model://cracker_fx/materials/textures/spark.png</albedo_map>
+            </metal>
+          </pbr>
+        </material>
+        <color_range_image>@DIWALI_FX_DIR@/range_fire.png</color_range_image>
+        <topic>/festival/cracker/demo/shot3/1</topic>
+      </particle_emitter>
+      <particle_emitter name="pe_shot4" type="box">
+        <emitting>false</emitting>
+        <size>0.02 0.02 0.02</size>
+        <particle_size>0.09 0.09 0.09</particle_size>
+        <lifetime>0.9</lifetime>
+        <min_velocity>8.0</min_velocity>
+        <max_velocity>11.0</max_velocity>
+        <rate>500</rate>
+        <pose>0.0000 0.0000 0.2800 0.0000 -1.5708 0.0000</pose>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0 0 0 1</specular>
+          <pbr>
+            <metal>
+              <albedo_map>model://cracker_fx/materials/textures/spark.png</albedo_map>
+            </metal>
+          </pbr>
+        </material>
+        <color_range_image>@DIWALI_FX_DIR@/range_gold.png</color_range_image>
+        <topic>/festival/cracker/demo/shot4/0</topic>
+      </particle_emitter>
+      <particle_emitter name="pe_muzzle4" type="box">
+        <emitting>false</emitting>
+        <size>0.02 0.02 0.02</size>
+        <particle_size>0.05 0.05 0.05</particle_size>
+        <lifetime>0.15</lifetime>
+        <min_velocity>0.5</min_velocity>
+        <max_velocity>2.0</max_velocity>
+        <rate>700</rate>
+        <pose>0.0000 0.0000 0.2800 0.0000 -1.5708 0.0000</pose>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0 0 0 1</specular>
+          <pbr>
+            <metal>
+              <albedo_map>model://cracker_fx/materials/textures/spark.png</albedo_map>
+            </metal>
+          </pbr>
+        </material>
+        <color_range_image>@DIWALI_FX_DIR@/range_fire.png</color_range_image>
+        <topic>/festival/cracker/demo/shot4/1</topic>
+      </particle_emitter>
+      <particle_emitter name="pe_shot5" type="box">
+        <emitting>false</emitting>
+        <size>0.02 0.02 0.02</size>
+        <particle_size>0.09 0.09 0.09</particle_size>
+        <lifetime>0.9</lifetime>
+        <min_velocity>8.0</min_velocity>
+        <max_velocity>11.0</max_velocity>
+        <rate>500</rate>
+        <pose>0.0000 0.1100 0.2800 0.0000 -1.4514 1.5708</pose>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0 0 0 1</specular>
+          <pbr>
+            <metal>
+              <albedo_map>model://cracker_fx/materials/textures/spark.png</albedo_map>
+            </metal>
+          </pbr>
+        </material>
+        <color_range_image>@DIWALI_FX_DIR@/range_green.png</color_range_image>
+        <topic>/festival/cracker/demo/shot5/0</topic>
+      </particle_emitter>
+      <particle_emitter name="pe_muzzle5" type="box">
+        <emitting>false</emitting>
+        <size>0.02 0.02 0.02</size>
+        <particle_size>0.05 0.05 0.05</particle_size>
+        <lifetime>0.15</lifetime>
+        <min_velocity>0.5</min_velocity>
+        <max_velocity>2.0</max_velocity>
+        <rate>700</rate>
+        <pose>0.0000 0.1100 0.2800 0.0000 -1.5708 0.0000</pose>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0 0 0 1</specular>
+          <pbr>
+            <metal>
+              <albedo_map>model://cracker_fx/materials/textures/spark.png</albedo_map>
+            </metal>
+          </pbr>
+        </material>
+        <color_range_image>@DIWALI_FX_DIR@/range_fire.png</color_range_image>
+        <topic>/festival/cracker/demo/shot5/1</topic>
+      </particle_emitter>
+      <particle_emitter name="pe_shot6" type="box">
+        <emitting>false</emitting>
+        <size>0.02 0.02 0.02</size>
+        <particle_size>0.09 0.09 0.09</particle_size>
+        <lifetime>0.9</lifetime>
+        <min_velocity>8.0</min_velocity>
+        <max_velocity>11.0</max_velocity>
+        <rate>500</rate>
+        <pose>0.1100 -0.1100 0.2800 0.0000 -1.4027 -0.7854</pose>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0 0 0 1</specular>
+          <pbr>
+            <metal>
+              <albedo_map>model://cracker_fx/materials/textures/spark.png</albedo_map>
+            </metal>
+          </pbr>
+        </material>
+        <color_range_image>@DIWALI_FX_DIR@/range_gold.png</color_range_image>
+        <topic>/festival/cracker/demo/shot6/0</topic>
+      </particle_emitter>
+      <particle_emitter name="pe_muzzle6" type="box">
+        <emitting>false</emitting>
+        <size>0.02 0.02 0.02</size>
+        <particle_size>0.05 0.05 0.05</particle_size>
+        <lifetime>0.15</lifetime>
+        <min_velocity>0.5</min_velocity>
+        <max_velocity>2.0</max_velocity>
+        <rate>700</rate>
+        <pose>0.1100 -0.1100 0.2800 0.0000 -1.5708 0.0000</pose>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0 0 0 1</specular>
+          <pbr>
+            <metal>
+              <albedo_map>model://cracker_fx/materials/textures/spark.png</albedo_map>
+            </metal>
+          </pbr>
+        </material>
+        <color_range_image>@DIWALI_FX_DIR@/range_fire.png</color_range_image>
+        <topic>/festival/cracker/demo/shot6/1</topic>
+      </particle_emitter>
+      <particle_emitter name="pe_shot7" type="box">
+        <emitting>false</emitting>
+        <size>0.02 0.02 0.02</size>
+        <particle_size>0.09 0.09 0.09</particle_size>
+        <lifetime>0.9</lifetime>
+        <min_velocity>8.0</min_velocity>
+        <max_velocity>11.0</max_velocity>
+        <rate>500</rate>
+        <pose>0.1100 0.0000 0.2800 0.0000 -1.4514 0.0000</pose>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0 0 0 1</specular>
+          <pbr>
+            <metal>
+              <albedo_map>model://cracker_fx/materials/textures/spark.png</albedo_map>
+            </metal>
+          </pbr>
+        </material>
+        <color_range_image>@DIWALI_FX_DIR@/range_green.png</color_range_image>
+        <topic>/festival/cracker/demo/shot7/0</topic>
+      </particle_emitter>
+      <particle_emitter name="pe_muzzle7" type="box">
+        <emitting>false</emitting>
+        <size>0.02 0.02 0.02</size>
+        <particle_size>0.05 0.05 0.05</particle_size>
+        <lifetime>0.15</lifetime>
+        <min_velocity>0.5</min_velocity>
+        <max_velocity>2.0</max_velocity>
+        <rate>700</rate>
+        <pose>0.1100 0.0000 0.2800 0.0000 -1.5708 0.0000</pose>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0 0 0 1</specular>
+          <pbr>
+            <metal>
+              <albedo_map>model://cracker_fx/materials/textures/spark.png</albedo_map>
+            </metal>
+          </pbr>
+        </material>
+        <color_range_image>@DIWALI_FX_DIR@/range_fire.png</color_range_image>
+        <topic>/festival/cracker/demo/shot7/1</topic>
+      </particle_emitter>
+      <particle_emitter name="pe_shot8" type="box">
+        <emitting>false</emitting>
+        <size>0.02 0.02 0.02</size>
+        <particle_size>0.09 0.09 0.09</particle_size>
+        <lifetime>0.9</lifetime>
+        <min_velocity>8.0</min_velocity>
+        <max_velocity>11.0</max_velocity>
+        <rate>500</rate>
+        <pose>0.1100 0.1100 0.2800 0.0000 -1.4027 0.7854</pose>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0 0 0 1</specular>
+          <pbr>
+            <metal>
+              <albedo_map>model://cracker_fx/materials/textures/spark.png</albedo_map>
+            </metal>
+          </pbr>
+        </material>
+        <color_range_image>@DIWALI_FX_DIR@/range_gold.png</color_range_image>
+        <topic>/festival/cracker/demo/shot8/0</topic>
+      </particle_emitter>
+      <particle_emitter name="pe_muzzle8" type="box">
+        <emitting>false</emitting>
+        <size>0.02 0.02 0.02</size>
+        <particle_size>0.05 0.05 0.05</particle_size>
+        <lifetime>0.15</lifetime>
+        <min_velocity>0.5</min_velocity>
+        <max_velocity>2.0</max_velocity>
+        <rate>700</rate>
+        <pose>0.1100 0.1100 0.2800 0.0000 -1.5708 0.0000</pose>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0 0 0 1</specular>
+          <pbr>
+            <metal>
+              <albedo_map>model://cracker_fx/materials/textures/spark.png</albedo_map>
+            </metal>
+          </pbr>
+        </material>
+        <color_range_image>@DIWALI_FX_DIR@/range_fire.png</color_range_image>
+        <topic>/festival/cracker/demo/shot8/1</topic>
+      </particle_emitter>
+      <particle_emitter name="pe_smoke" type="box">
+        <emitting>false</emitting>
+        <size>0.3 0.3 0.1</size>
+        <particle_size>0.3 0.3 0.3</particle_size>
+        <lifetime>3.0</lifetime>
+        <min_velocity>0.25</min_velocity>
+        <max_velocity>0.6</max_velocity>
+        <rate>9</rate>
+        <pose>0.0000 0.0000 0.4000 0.0000 -1.5708 0.0000</pose>
+        <material>
+          <diffuse>1 1 1 1</diffuse>
+          <specular>0 0 0 1</specular>
+          <pbr>
+            <metal>
+              <albedo_map>model://cracker_fx/materials/textures/smoke.png</albedo_map>
+            </metal>
+          </pbr>
+        </material>
+        <color_range_image>@DIWALI_FX_DIR@/range_smoke.png</color_range_image>
+        <scale_rate>0.35</scale_rate>
+        <topic>/festival/cracker/demo/smoke/3</topic>
+      </particle_emitter>
+    </link>
+  </model>
+</sdf>

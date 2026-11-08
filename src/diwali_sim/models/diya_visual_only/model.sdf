@@ -1,0 +1,128 @@
+<?xml version="1.0" ?>
+<sdf version="1.9">
+  <model name="diya_visual_only">
+    <static>true</static>
+    <link name="link">
+      <visual name="foot">
+        <pose>0.0000 0.0000 0.0060 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.0300</radius>
+            <length>0.0120</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>0.804 0.608 0.235 1.0</ambient>
+          <diffuse>0.804 0.608 0.235 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.35</roughness>
+              <metalness>0.7</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="bowl">
+        <pose>0.0000 0.0000 0.0230 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.0500</radius>
+            <length>0.0220</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>0.804 0.608 0.235 1.0</ambient>
+          <diffuse>0.804 0.608 0.235 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.3</roughness>
+              <metalness>0.8</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="oil">
+        <pose>0.0000 0.0000 0.0350 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.0420</radius>
+            <length>0.0040</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>0.275 0.157 0.039 1.0</ambient>
+          <diffuse>0.275 0.157 0.039 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.2</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="lip">
+        <pose>0.0550 0.0000 0.0300 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.0500 0.0300 0.0200</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.804 0.608 0.235 1.0</ambient>
+          <diffuse>0.804 0.608 0.235 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.3</roughness>
+              <metalness>0.8</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="wick">
+        <pose>0.0600 0.0000 0.0450 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.0030</radius>
+            <length>0.0200</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>0.118 0.078 0.039 1.0</ambient>
+          <diffuse>0.118 0.078 0.039 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="flame">
+        <pose>0.0600 0.0000 0.0640 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0140</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.549 0.078 1.0</ambient>
+          <diffuse>1.000 0.549 0.078 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <emissive>1.000 0.667 0.157 1</emissive>
+          <pbr>
+            <metal>
+              <roughness>0.5</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+  </model>
+</sdf>

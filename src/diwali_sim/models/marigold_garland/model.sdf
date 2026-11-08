@@ -1,0 +1,1268 @@
+<?xml version="1.0" ?>
+<sdf version="1.9">
+  <model name="marigold_garland">
+    <static>true</static>
+    <link name="link">
+      <visual name="f0">
+        <pose>-2.0000 0.0000 -0.0000 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0450</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.471 0.000 1.0</ambient>
+          <diffuse>1.000 0.471 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f1">
+        <pose>-1.8857 0.0000 -0.0278 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0450</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.745 0.039 1.0</ambient>
+          <diffuse>1.000 0.745 0.039 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f2">
+        <pose>-1.7714 0.0000 -0.0539 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0450</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>0.902 0.353 0.000 1.0</ambient>
+          <diffuse>0.902 0.353 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f2_s1">
+        <pose>-1.7714 0.0000 -0.1639 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0400</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.471 0.000 1.0</ambient>
+          <diffuse>1.000 0.471 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f2_s2">
+        <pose>-1.7714 0.0000 -0.2739 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0400</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.745 0.039 1.0</ambient>
+          <diffuse>1.000 0.745 0.039 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f2_s3">
+        <pose>-1.7714 0.0000 -0.3839 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0400</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>0.902 0.353 0.000 1.0</ambient>
+          <diffuse>0.902 0.353 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f3">
+        <pose>-1.6571 0.0000 -0.0784 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0450</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.471 0.000 1.0</ambient>
+          <diffuse>1.000 0.471 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f4">
+        <pose>-1.5429 0.0000 -0.1012 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0450</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.745 0.039 1.0</ambient>
+          <diffuse>1.000 0.745 0.039 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f5">
+        <pose>-1.4286 0.0000 -0.1224 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0450</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>0.902 0.353 0.000 1.0</ambient>
+          <diffuse>0.902 0.353 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f6">
+        <pose>-1.3143 0.0000 -0.1420 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0450</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.471 0.000 1.0</ambient>
+          <diffuse>1.000 0.471 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f6_s1">
+        <pose>-1.3143 0.0000 -0.2520 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0400</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.745 0.039 1.0</ambient>
+          <diffuse>1.000 0.745 0.039 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f6_s2">
+        <pose>-1.3143 0.0000 -0.3620 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0400</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>0.902 0.353 0.000 1.0</ambient>
+          <diffuse>0.902 0.353 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f6_s3">
+        <pose>-1.3143 0.0000 -0.4720 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0400</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.471 0.000 1.0</ambient>
+          <diffuse>1.000 0.471 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f7">
+        <pose>-1.2000 0.0000 -0.1600 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0450</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.745 0.039 1.0</ambient>
+          <diffuse>1.000 0.745 0.039 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f8">
+        <pose>-1.0857 0.0000 -0.1763 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0450</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>0.902 0.353 0.000 1.0</ambient>
+          <diffuse>0.902 0.353 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f9">
+        <pose>-0.9714 0.0000 -0.1910 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0450</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.471 0.000 1.0</ambient>
+          <diffuse>1.000 0.471 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f10">
+        <pose>-0.8571 0.0000 -0.2041 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0450</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.745 0.039 1.0</ambient>
+          <diffuse>1.000 0.745 0.039 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f10_s1">
+        <pose>-0.8571 0.0000 -0.3141 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0400</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>0.902 0.353 0.000 1.0</ambient>
+          <diffuse>0.902 0.353 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f10_s2">
+        <pose>-0.8571 0.0000 -0.4241 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0400</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.471 0.000 1.0</ambient>
+          <diffuse>1.000 0.471 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f10_s3">
+        <pose>-0.8571 0.0000 -0.5341 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0400</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.745 0.039 1.0</ambient>
+          <diffuse>1.000 0.745 0.039 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f11">
+        <pose>-0.7429 0.0000 -0.2155 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0450</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>0.902 0.353 0.000 1.0</ambient>
+          <diffuse>0.902 0.353 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f12">
+        <pose>-0.6286 0.0000 -0.2253 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0450</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.471 0.000 1.0</ambient>
+          <diffuse>1.000 0.471 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f13">
+        <pose>-0.5143 0.0000 -0.2335 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0450</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.745 0.039 1.0</ambient>
+          <diffuse>1.000 0.745 0.039 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f14">
+        <pose>-0.4000 0.0000 -0.2400 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0450</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>0.902 0.353 0.000 1.0</ambient>
+          <diffuse>0.902 0.353 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f14_s1">
+        <pose>-0.4000 0.0000 -0.3500 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0400</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.471 0.000 1.0</ambient>
+          <diffuse>1.000 0.471 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f14_s2">
+        <pose>-0.4000 0.0000 -0.4600 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0400</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.745 0.039 1.0</ambient>
+          <diffuse>1.000 0.745 0.039 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f14_s3">
+        <pose>-0.4000 0.0000 -0.5700 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0400</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>0.902 0.353 0.000 1.0</ambient>
+          <diffuse>0.902 0.353 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f15">
+        <pose>-0.2857 0.0000 -0.2449 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0450</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.471 0.000 1.0</ambient>
+          <diffuse>1.000 0.471 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f16">
+        <pose>-0.1714 0.0000 -0.2482 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0450</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.745 0.039 1.0</ambient>
+          <diffuse>1.000 0.745 0.039 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f17">
+        <pose>-0.0571 0.0000 -0.2498 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0450</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>0.902 0.353 0.000 1.0</ambient>
+          <diffuse>0.902 0.353 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f18">
+        <pose>0.0571 0.0000 -0.2498 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0450</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.471 0.000 1.0</ambient>
+          <diffuse>1.000 0.471 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f18_s1">
+        <pose>0.0571 0.0000 -0.3598 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0400</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.745 0.039 1.0</ambient>
+          <diffuse>1.000 0.745 0.039 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f18_s2">
+        <pose>0.0571 0.0000 -0.4698 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0400</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>0.902 0.353 0.000 1.0</ambient>
+          <diffuse>0.902 0.353 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f18_s3">
+        <pose>0.0571 0.0000 -0.5798 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0400</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.471 0.000 1.0</ambient>
+          <diffuse>1.000 0.471 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f19">
+        <pose>0.1714 0.0000 -0.2482 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0450</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.745 0.039 1.0</ambient>
+          <diffuse>1.000 0.745 0.039 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f20">
+        <pose>0.2857 0.0000 -0.2449 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0450</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>0.902 0.353 0.000 1.0</ambient>
+          <diffuse>0.902 0.353 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f21">
+        <pose>0.4000 0.0000 -0.2400 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0450</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.471 0.000 1.0</ambient>
+          <diffuse>1.000 0.471 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f22">
+        <pose>0.5143 0.0000 -0.2335 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0450</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.745 0.039 1.0</ambient>
+          <diffuse>1.000 0.745 0.039 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f22_s1">
+        <pose>0.5143 0.0000 -0.3435 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0400</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>0.902 0.353 0.000 1.0</ambient>
+          <diffuse>0.902 0.353 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f22_s2">
+        <pose>0.5143 0.0000 -0.4535 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0400</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.471 0.000 1.0</ambient>
+          <diffuse>1.000 0.471 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f22_s3">
+        <pose>0.5143 0.0000 -0.5635 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0400</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.745 0.039 1.0</ambient>
+          <diffuse>1.000 0.745 0.039 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f23">
+        <pose>0.6286 0.0000 -0.2253 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0450</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>0.902 0.353 0.000 1.0</ambient>
+          <diffuse>0.902 0.353 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f24">
+        <pose>0.7429 0.0000 -0.2155 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0450</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.471 0.000 1.0</ambient>
+          <diffuse>1.000 0.471 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f25">
+        <pose>0.8571 0.0000 -0.2041 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0450</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.745 0.039 1.0</ambient>
+          <diffuse>1.000 0.745 0.039 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f26">
+        <pose>0.9714 0.0000 -0.1910 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0450</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>0.902 0.353 0.000 1.0</ambient>
+          <diffuse>0.902 0.353 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f26_s1">
+        <pose>0.9714 0.0000 -0.3010 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0400</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.471 0.000 1.0</ambient>
+          <diffuse>1.000 0.471 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f26_s2">
+        <pose>0.9714 0.0000 -0.4110 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0400</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.745 0.039 1.0</ambient>
+          <diffuse>1.000 0.745 0.039 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f26_s3">
+        <pose>0.9714 0.0000 -0.5210 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0400</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>0.902 0.353 0.000 1.0</ambient>
+          <diffuse>0.902 0.353 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f27">
+        <pose>1.0857 0.0000 -0.1763 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0450</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.471 0.000 1.0</ambient>
+          <diffuse>1.000 0.471 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f28">
+        <pose>1.2000 0.0000 -0.1600 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0450</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.745 0.039 1.0</ambient>
+          <diffuse>1.000 0.745 0.039 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f29">
+        <pose>1.3143 0.0000 -0.1420 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0450</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>0.902 0.353 0.000 1.0</ambient>
+          <diffuse>0.902 0.353 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f30">
+        <pose>1.4286 0.0000 -0.1224 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0450</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.471 0.000 1.0</ambient>
+          <diffuse>1.000 0.471 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f30_s1">
+        <pose>1.4286 0.0000 -0.2324 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0400</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.745 0.039 1.0</ambient>
+          <diffuse>1.000 0.745 0.039 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f30_s2">
+        <pose>1.4286 0.0000 -0.3424 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0400</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>0.902 0.353 0.000 1.0</ambient>
+          <diffuse>0.902 0.353 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f30_s3">
+        <pose>1.4286 0.0000 -0.4524 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0400</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.471 0.000 1.0</ambient>
+          <diffuse>1.000 0.471 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f31">
+        <pose>1.5429 0.0000 -0.1012 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0450</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.745 0.039 1.0</ambient>
+          <diffuse>1.000 0.745 0.039 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f32">
+        <pose>1.6571 0.0000 -0.0784 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0450</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>0.902 0.353 0.000 1.0</ambient>
+          <diffuse>0.902 0.353 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f33">
+        <pose>1.7714 0.0000 -0.0539 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0450</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.471 0.000 1.0</ambient>
+          <diffuse>1.000 0.471 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f34">
+        <pose>1.8857 0.0000 -0.0278 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0450</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.745 0.039 1.0</ambient>
+          <diffuse>1.000 0.745 0.039 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f34_s1">
+        <pose>1.8857 0.0000 -0.1378 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0400</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>0.902 0.353 0.000 1.0</ambient>
+          <diffuse>0.902 0.353 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f34_s2">
+        <pose>1.8857 0.0000 -0.2478 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0400</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.471 0.000 1.0</ambient>
+          <diffuse>1.000 0.471 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f34_s3">
+        <pose>1.8857 0.0000 -0.3578 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0400</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>1.000 0.745 0.039 1.0</ambient>
+          <diffuse>1.000 0.745 0.039 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <visual name="f35">
+        <pose>2.0000 0.0000 -0.0000 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <sphere>
+            <radius>0.0450</radius>
+          </sphere>
+        </geometry>
+        <material>
+          <ambient>0.902 0.353 0.000 1.0</ambient>
+          <diffuse>0.902 0.353 0.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+  </model>
+</sdf>

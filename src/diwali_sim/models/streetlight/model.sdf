@@ -1,0 +1,135 @@
+<?xml version="1.0" ?>
+<sdf version="1.9">
+  <model name="streetlight">
+    <static>true</static>
+    <link name="link">
+      <visual name="pole">
+        <pose>0.0000 0.0000 3.0000 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.0600</radius>
+            <length>6.0000</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>0.196 0.204 0.220 1.0</ambient>
+          <diffuse>0.196 0.204 0.220 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.5</roughness>
+              <metalness>0.6</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="base">
+        <pose>0.0000 0.0000 0.1500 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.1200</radius>
+            <length>0.3000</length>
+          </cylinder>
+        </geometry>
+        <material>
+          <ambient>0.196 0.204 0.220 1.0</ambient>
+          <diffuse>0.196 0.204 0.220 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.5</roughness>
+              <metalness>0.6</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="arm">
+        <pose>0.6000 0.0000 5.9500 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>1.3000 0.0600 0.0600</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.196 0.204 0.220 1.0</ambient>
+          <diffuse>0.196 0.204 0.220 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.5</roughness>
+              <metalness>0.6</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="head">
+        <pose>1.2000 0.0000 5.9300 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.5500 0.2200 0.0800</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>0.235 0.235 0.235 1.0</ambient>
+          <diffuse>0.235 0.235 0.235 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <roughness>0.5</roughness>
+              <metalness>0.5</metalness>
+            </metal>
+          </pbr>
+        </material>
+      </visual>
+      <visual name="lens">
+        <pose>1.2000 0.0000 5.8800 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>0.4500 0.1600 0.0200</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>1.000 0.882 0.627 1.0</ambient>
+          <diffuse>1.000 0.882 0.627 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <emissive>1.000 0.843 0.549 1</emissive>
+          <pbr>
+            <metal>
+              <roughness>0.3</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+      <collision name="pole">
+        <pose>0.0000 0.0000 3.0000 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <cylinder>
+            <radius>0.1000</radius>
+            <length>6.0000</length>
+          </cylinder>
+        </geometry>
+      </collision>
+      <light name="lamp" type="spot">
+        <pose>1.2000 0.0000 5.8500 0.0000 0.0000 0.0000</pose>
+        <cast_shadows>false</cast_shadows>
+        <diffuse>1 0.84 0.55 1</diffuse>
+        <specular>0.6 0.5 0.3 1</specular>
+        <intensity>3</intensity>
+        <attenuation>
+          <range>16</range>
+          <constant>0.5</constant>
+          <linear>0.04</linear>
+          <quadratic>0.008</quadratic>
+        </attenuation>
+        <direction>0 0 -1</direction>
+        <spot>
+          <inner_angle>0.5</inner_angle>
+          <outer_angle>1.15</outer_angle>
+          <falloff>1.0</falloff>
+        </spot>
+      </light>
+    </link>
+  </model>
+</sdf>

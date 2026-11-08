@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<sdf version="1.9">
+  <model name="kolam">
+    <static>true</static>
+    <link name="link">
+      <visual name="floor_art">
+        <pose>0.0000 0.0000 0.0020 0.0000 0.0000 0.0000</pose>
+        <geometry>
+          <box>
+            <size>1.6000 1.6000 0.0040</size>
+          </box>
+        </geometry>
+        <material>
+          <ambient>1.000 1.000 1.000 1.0</ambient>
+          <diffuse>1.000 1.000 1.000 1.0</diffuse>
+          <specular>0.2 0.2 0.2 1</specular>
+          <pbr>
+            <metal>
+              <albedo_map>model://rangoli/materials/textures/kolam_white.png</albedo_map>
+              <roughness>0.9</roughness>
+              <metalness>0.0</metalness>
+            </metal>
+          </pbr>
+        </material>
+        <cast_shadows>false</cast_shadows>
+      </visual>
+    </link>
+  </model>
+</sdf>

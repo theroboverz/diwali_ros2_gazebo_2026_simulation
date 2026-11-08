@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>diwali_festival</name>
+  <version>0.1.0</version>
+  <description>Festival event manager (fireworks, lighting, sound) for the Diwali Gazebo Harmonic simulation.</description>
+  <maintainer email="dev@example.com">Diwali Sim Maintainer</maintainer>
+  <license>Apache-2.0</license>
+
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  <depend>std_srvs</depend>
+  <depend>geometry_msgs</depend>
+  <exec_depend>nav2_simple_commander</exec_depend>
+  <depend>diwali_interfaces</depend>
+  <depend>ament_index_python</depend>
+  <exec_depend>python3-yaml</exec_depend>
+  <!-- Optional: Python Gazebo Transport bindings. Without them the node falls back to the `gz` CLI. -->
+  <exec_depend>python3-gz-transport13</exec_depend>
+  <exec_depend>python3-gz-msgs10</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
